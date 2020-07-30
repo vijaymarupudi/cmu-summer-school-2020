@@ -16,6 +16,9 @@
         "search_depth": 3,
         "when_learner": "decisiontree",
         "where_learner": "versionspace",
+        "where_args" : {
+        "remove_attrs": ["offsetParent"]
+        },
         "planner": "numba",
         "feature_set": [],
         "function_set": [
