@@ -1,0 +1,92 @@
+{
+	"set_params" : {"README" : "You can set parameters at the file level. These will stick around while this .json is running except for when they are overriden"},
+
+	"training_set1" : [
+	{
+		"agent_name":"Treatment_IntegerAddition",
+		"agent_type":"ModularAgent",
+		"args": {
+			"search_depth" : 2,
+			"when_learner": "decisiontree",
+			"where_learner": "MostSpecific",
+			"planner": "numba",
+			"function_set": ["RipFloatValue","Add","Subtract","Multiply","Divide"],
+        	"feature_set": ["Equals"]
+		},			
+
+		"problem_set" : [
+
+			{"set_params" : 
+				{"README" : "You can also set parameters at the agent level. These will stick around for just this agent. And override file level parameters.",
+				"HTML": "IntegerArithmetic/HTML/IntegerArithmetic.html",
+				"examples_only" : true}
+			},
+
+	 		{"README" : "Problem level parameters will override everything else. But only apply to this problem.",
+	 		"question_file" : "../FinalBRDs/1+1.brd"},
+	 		{"question_file" : "../FinalBRDs/2+1.brd"},
+	 		{"question_file" : "../FinalBRDs/2+2.brd"},
+	 		{"question_file" : "../FinalBRDs/3+4.brd"},
+	 		{"question_file" : "../FinalBRDs/3+5.brd"},
+	 		{"question_file" : "../FinalBRDs/4+3.brd"},
+	 		{"question_file" : "../FinalBRDs/6+9.brd"},
+	 		{"question_file" : "../FinalBRDs/8+7.brd"},
+
+	 		{"README" : "We can also set the number of repetitions for a problem. Default 1. <= 0, nothing happens",
+	 		"question_file" : "../FinalBRDs/9+2.brd",
+	 		"repetitions":7},
+
+	 		{"set_params" : 
+				{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+				"examples_only" : false}
+			},
+
+			{"question_file": "../training/AD 1_2_plus_2_3.brd"},
+			{"question_file": "../training/AD 1_4_plus_4_5.brd"},
+			{"question_file": "../training/AS 11_2_plus_3_2.brd"},
+			{"question_file": "../training/AS 3_7_plus_4_7.brd"},
+			{"question_file": "../training/M 2_3_times_1_2.brd"},
+			{"question_file": "../training/M 3_10_times_4_5.brd"}
+
+		]
+	},
+
+	{
+
+		"agent_name":"Control",
+		"agent_type":"ModularAgent",
+		"args": {
+			"search_depth" : 2,
+			"when_learner": "decisiontree",
+			"where_learner": "MostSpecific",
+			"planner": "numba",
+			"function_set": ["RipFloatValue","Add","Subtract","Multiply","Divide"],
+        	"feature_set": ["Equals"]
+		},			
+		"problem_set" : [
+
+			{"README" : "If you want to explictly name the HTML each time that's fine too.",
+				
+			"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/AD 1_2_plus_2_3.brd"},
+
+	 		{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/AD 1_4_plus_4_5.brd"},
+
+	 		{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/AS 11_2_plus_3_2.brd"},
+
+	 		{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/AS 3_7_plus_4_7.brd"},
+
+	 		{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/M 2_3_times_1_2.brd"},
+
+	 		{"HTML": "FractionArithmetic/HTML/fraction_arithmetic.html",
+			"question_file": "../training/M 3_10_times_4_5.brd"}
+
+		]
+	}
+
+]
+}

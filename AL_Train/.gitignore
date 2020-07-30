@@ -1,0 +1,23 @@
+# exclude everything
+.~lock.*
+ubprocess
+log/
+bprofiles/
+net.conf
+*.cprof
+*.prof
+alhtml.egg-info
+altrain.egg-info
+al_train.egg-info
+
+examples/INFO
+examples/DEBUG
+
+*.DS_Store
+__pycache__/
+# vim-generated files
+*.swp
+*.swo
+geckodriver.log
+
+.python-version
