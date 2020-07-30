@@ -21,9 +21,11 @@
         "function_set": [
           "BOIntDiv2",
           "BOMod2",
-          "BOPowerOfTwo",
+          "BOPowerOfTwoTimesNumber",
           "BOAdd5",
-          "BOBinaryOp"
+          "BOBinaryOp",
+          "RipFloatValue",
+          "RipStrValue"
         ]
       },
 
@@ -32,7 +34,7 @@
       "no_ops_parse": true,
 
       "problem_set": [
-        { "set_params": { "HTML": "../../../binary-operator-interface.html" } },
+        { "set_params": { "HTML": "../../../bin_ope.html" } },
         {
           "repetitions": -1
         }

@@ -83,7 +83,7 @@ class BOAdd5(BaseOperator):
     signature = 'float(float,float,float,float,float)'
 
     def forward(a1, a2, a3, a4, a5):
-        return sum([a1, a2, a3, a4, a5])
+        return a1 + a2 + a3 + a4+ a5
 
 
 class AddOne(BaseOperator):
@@ -145,6 +145,11 @@ class BOIntDiv2(BaseOperator):
 class BOBinaryOp(BaseOperator):
     signature = 'float(float, float, string)'
     commutes = True
+    nopython = False
+    muted_exceptions = [ValueError]
+
+    def condition(x, y, operator):
+        return operator in ("AND", "OR", "XOR")
 
     def forward(x, y, operator):
         x = int(x)
