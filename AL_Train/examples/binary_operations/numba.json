@@ -15,7 +15,7 @@
       "args": {
         "search_depth": 3,
         "when_learner": "decisiontree",
-        "where_learner": "fastMostSpecific",
+        "where_learner": "versionspace",
         "planner": "numba",
         "feature_set": [],
         "function_set": [
