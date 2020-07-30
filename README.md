@@ -7,6 +7,17 @@ This project involves a binary operator learner. Given one base 10 number, the b
 [Apprentice Learner]: https://www.educationaldatamining.org/EDM2016/proceedings/paper_118.pdf
 [Simon Initiative LearnLab Summer School]: https://learnlab.org/index.php/simon-initiative-summer-school/
 
+## Operators
+
+* `//` 
+* `% 2`
+* `&`
+* `|`
+* `^`
+* `2 ** x * y`
+* `+ (a1, a2, a3, a4, a5)`
+* `(number1, number2, op)`
+
 ```
 31 AND 2 = ___
 
