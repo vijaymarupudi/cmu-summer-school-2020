@@ -1,19 +1,19 @@
 <?xml version="1.0" standalone="yes"?>
 
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" confirmDone="false" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
+<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" hintPolicy="Use Both Kinds of Bias" version="4.0" suppressStudentFeedback="Show All Feedback" highlightRightSelection="true" startStateNodeName="%(startStateNodeName)%" tutorType="Example-tracing Tutor">
     <startNodeMessages>
         <message>
             <verb>SendNoteProperty</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>BinaryOperation</ProblemName>
+                <ProblemName>bo_and2</ProblemName>
             </properties>
         </message>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>d479cf9e-9ddf-8657-76b0-1e298aafd9b7</transaction_id>
+                <transaction_id>3d17f032-eb34-160d-1e63-e7e8fcd09eb0</transaction_id>
                 <Selection>
                     <value>ope</value>
                 </Selection>
@@ -29,7 +29,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>fa0a45b6-3d38-7ba0-94a3-ba42f7caed61</transaction_id>
+                <transaction_id>d34d89ba-b907-4a88-e144-d63b60cccac1</transaction_id>
                 <Selection>
                     <value>in1</value>
                 </Selection>
@@ -37,7 +37,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>11</value>
+                    <value>13</value>
                 </Input>
             </properties>
         </message>
@@ -45,7 +45,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>ed13a012-ae77-d587-587e-4bad70e3a009</transaction_id>
+                <transaction_id>f10e1615-f889-3c1c-d5ae-3e5367956e05</transaction_id>
                 <Selection>
                     <value>in_2</value>
                 </Selection>
@@ -53,7 +53,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>3</value>
+                    <value>30</value>
                 </Input>
             </properties>
         </message>
@@ -61,7 +61,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>f4bc9759-6a81-7735-8490-e8c6953d74a5</transaction_id>
+                <transaction_id>ead2616b-d203-5612-10fe-07688b214875</transaction_id>
                 <Selection>
                     <value>ord5</value>
                 </Selection>
@@ -77,7 +77,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>6bb26ad7-5eeb-bdba-c0fe-05c417e78f5c</transaction_id>
+                <transaction_id>4a8eac69-a96d-c910-5977-8774cc68396a</transaction_id>
                 <Selection>
                     <value>ord4</value>
                 </Selection>
@@ -93,7 +93,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>2592ee04-1bdd-a946-a81c-dc4985c55009</transaction_id>
+                <transaction_id>34893a75-aa7d-6283-f47d-3e35a31974a1</transaction_id>
                 <Selection>
                     <value>ord3</value>
                 </Selection>
@@ -109,7 +109,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>99b80798-f2d3-b49a-9c43-bfcef933cb92</transaction_id>
+                <transaction_id>0b145c63-3c1e-d9d3-823c-87dfabba03a1</transaction_id>
                 <Selection>
                     <value>ord2</value>
                 </Selection>
@@ -125,7 +125,7 @@
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>InterfaceAction</MessageType>
-                <transaction_id>d8f80787-273d-4ea9-e655-6801dfd3e11b</transaction_id>
+                <transaction_id>ed9ccf0d-2fd9-72d4-b6d3-36fa8d39c0a5</transaction_id>
                 <Selection>
                     <value>ord1</value>
                 </Selection>
@@ -138,22 +138,6 @@
             </properties>
         </message>
         <message>
-            <verb>NotePropertySet</verb>
-            <properties>
-                <MessageType>InterfaceAction</MessageType>
-                <transaction_id>23c76976-fb81-cbbc-b1de-0b34baa3ff03</transaction_id>
-                <Selection>
-                    <value>done</value>
-                </Selection>
-                <Action>
-                    <value>ButtonPressed</value>
-                </Action>
-                <Input>
-                    <value>-1</value>
-                </Input>
-            </properties>
-        </message>
-        <message>
             <verb>SendNoteProperty</verb>
             <properties>
                 <MessageType>StartStateEnd</MessageType>
@@ -161,267 +145,267 @@
         </message>
     </startNodeMessages>
     <node locked="false" doneState="false">
-        <text>bo_and</text>
+        <text>bo_and2</text>
         <uniqueID>1</uniqueID>
         <dimension>
-            <x>452</x>
-            <y>38</y>
+            <x>434</x>
+            <y>30</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state1</text>
         <uniqueID>2</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>144</y>
+            <x>443</x>
+            <y>140</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state2</text>
         <uniqueID>3</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>254</y>
+            <x>443</x>
+            <y>250</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state3</text>
         <uniqueID>4</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>364</y>
+            <x>443</x>
+            <y>360</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state4</text>
         <uniqueID>5</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>474</y>
+            <x>443</x>
+            <y>470</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state5</text>
         <uniqueID>6</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>584</y>
+            <x>443</x>
+            <y>580</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state6</text>
         <uniqueID>7</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>694</y>
+            <x>443</x>
+            <y>690</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state7</text>
         <uniqueID>8</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>804</y>
+            <x>443</x>
+            <y>800</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state8</text>
         <uniqueID>9</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>914</y>
+            <x>443</x>
+            <y>910</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state9</text>
         <uniqueID>10</uniqueID>
         <dimension>
-            <x>465</x>
-            <y>1024</y>
+            <x>443</x>
+            <y>1020</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state10</text>
         <uniqueID>11</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1134</y>
+            <x>439</x>
+            <y>1130</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state11</text>
         <uniqueID>12</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1244</y>
+            <x>439</x>
+            <y>1240</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state12</text>
         <uniqueID>13</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1354</y>
+            <x>439</x>
+            <y>1350</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state13</text>
         <uniqueID>14</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1464</y>
+            <x>439</x>
+            <y>1460</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state14</text>
         <uniqueID>15</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1574</y>
+            <x>439</x>
+            <y>1570</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state15</text>
         <uniqueID>16</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1684</y>
+            <x>439</x>
+            <y>1680</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state16</text>
         <uniqueID>17</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1794</y>
+            <x>439</x>
+            <y>1790</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state17</text>
         <uniqueID>18</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>1904</y>
+            <x>439</x>
+            <y>1900</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state18</text>
         <uniqueID>19</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2014</y>
+            <x>439</x>
+            <y>2010</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state19</text>
         <uniqueID>20</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2124</y>
+            <x>439</x>
+            <y>2120</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state20</text>
         <uniqueID>21</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2234</y>
+            <x>439</x>
+            <y>2230</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state21</text>
         <uniqueID>22</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2344</y>
+            <x>439</x>
+            <y>2340</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state22</text>
         <uniqueID>23</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2454</y>
+            <x>439</x>
+            <y>2450</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state23</text>
         <uniqueID>24</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2564</y>
+            <x>439</x>
+            <y>2560</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state24</text>
         <uniqueID>25</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2674</y>
+            <x>439</x>
+            <y>2670</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state25</text>
         <uniqueID>26</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2784</y>
+            <x>439</x>
+            <y>2780</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state26</text>
         <uniqueID>27</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>2894</y>
+            <x>439</x>
+            <y>2890</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state27</text>
         <uniqueID>28</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>3004</y>
+            <x>439</x>
+            <y>3000</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state28</text>
         <uniqueID>29</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>3114</y>
+            <x>439</x>
+            <y>3110</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state29</text>
         <uniqueID>30</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>3224</y>
+            <x>439</x>
+            <y>3220</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state30</text>
         <uniqueID>31</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>3334</y>
+            <x>439</x>
+            <y>3330</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state31</text>
         <uniqueID>32</uniqueID>
         <dimension>
-            <x>461</x>
-            <y>3444</y>
+            <x>439</x>
+            <y>3440</y>
         </dimension>
     </node>
     <node locked="false" doneState="true">
         <text>Done</text>
         <uniqueID>33</uniqueID>
         <dimension>
-            <x>468</x>
-            <y>3554</y>
+            <x>446</x>
+            <y>3550</y>
         </dimension>
     </node>
     <edge>
@@ -434,7 +418,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>e94dcccd-4eaa-e571-9dbb-f70b634ab846</transaction_id>
+                    <transaction_id>30126705-9e5a-f850-f0c9-a5574ca89916</transaction_id>
                     <Selection>
                         <value>in1_quo1</value>
                     </Selection>
@@ -442,13 +426,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>5</value>
+                        <value>6</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '5' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '6' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -469,7 +453,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">5</matcherParameter>
+                        <matcherParameter name="single">6</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -494,7 +478,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>ccb14032-98e6-7eed-c5f2-b308311d93fe</transaction_id>
+                    <transaction_id>3018557f-2086-265d-4da3-16f6380c6dc6</transaction_id>
                     <Selection>
                         <value>in1_rem1</value>
                     </Selection>
@@ -554,7 +538,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>a0d7dba8-3645-191d-ca52-b8df466b734b</transaction_id>
+                    <transaction_id>d32e3a39-63ee-63a2-0fc6-5f97f3f3d17d</transaction_id>
                     <Selection>
                         <value>in1_quo2</value>
                     </Selection>
@@ -562,13 +546,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>2</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '3' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -589,7 +573,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">2</matcherParameter>
+                        <matcherParameter name="single">3</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -614,7 +598,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>a95f0255-932f-fe10-c42e-12bc19586fca</transaction_id>
+                    <transaction_id>ba89a4b9-0276-5be5-ffcd-89d5ab85a601</transaction_id>
                     <Selection>
                         <value>in1_rem2</value>
                     </Selection>
@@ -622,13 +606,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -649,7 +633,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -674,7 +658,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>7403c0ec-7550-5c80-06b3-3c58cbce6363</transaction_id>
+                    <transaction_id>a7926243-87d5-3f7b-2b3e-bc986b554763</transaction_id>
                     <Selection>
                         <value>in1_quo3</value>
                     </Selection>
@@ -734,7 +718,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>6528c968-0932-9148-19ba-e3bc2d838f62</transaction_id>
+                    <transaction_id>7e66d843-22aa-d7ca-3a11-e6c6b47dad5a</transaction_id>
                     <Selection>
                         <value>in1_rem3</value>
                     </Selection>
@@ -742,13 +726,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -769,7 +753,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -794,7 +778,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>ec1658f4-4ac9-d1b7-dfe4-b5d6dccebfec</transaction_id>
+                    <transaction_id>4cdd31ae-86dd-0658-2fd3-6321aeb30b0c</transaction_id>
                     <Selection>
                         <value>in1_quo4</value>
                     </Selection>
@@ -854,7 +838,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>e8fad448-457b-df2b-d75d-b831dc8b15d3</transaction_id>
+                    <transaction_id>5361f24a-a8a4-3082-9e6e-fb98f5fe1125</transaction_id>
                     <Selection>
                         <value>in1_rem4</value>
                     </Selection>
@@ -914,7 +898,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>dd44f72a-068b-0a55-f7d6-47743930b27a</transaction_id>
+                    <transaction_id>8b504cc6-b0e8-d338-7d25-3d23be89e56e</transaction_id>
                     <Selection>
                         <value>in1_quo5</value>
                     </Selection>
@@ -974,7 +958,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>e857c96a-67eb-6387-4fdf-bb6013799817</transaction_id>
+                    <transaction_id>5dfeda8d-7495-26e6-c1a9-abf5f2a9032b</transaction_id>
                     <Selection>
                         <value>in1_rem5</value>
                     </Selection>
@@ -1034,7 +1018,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>898b500d-6eb7-6694-7bc9-12989f6db60d</transaction_id>
+                    <transaction_id>67a42ece-65b7-2386-8ba8-0275a325bf17</transaction_id>
                     <Selection>
                         <value>in2_quo1</value>
                     </Selection>
@@ -1042,13 +1026,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>15</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '15' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1069,7 +1053,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">15</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1094,7 +1078,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>3cd421c1-5c1a-f47b-dfd0-6cfc27fb2f81</transaction_id>
+                    <transaction_id>9a636dd9-b6e0-2ded-feec-715115fd1a4b</transaction_id>
                     <Selection>
                         <value>in2_rem1</value>
                     </Selection>
@@ -1102,13 +1086,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1129,7 +1113,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1154,7 +1138,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>664dcc29-f159-267b-43cf-69ed479f2263</transaction_id>
+                    <transaction_id>8c989756-ccec-489c-8920-841b9e1bb1b1</transaction_id>
                     <Selection>
                         <value>in2_quo2</value>
                     </Selection>
@@ -1162,13 +1146,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>7</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '7' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1189,7 +1173,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">7</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1214,7 +1198,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>d399ae7e-e3cb-5955-c7c0-7d845824947f</transaction_id>
+                    <transaction_id>18b9c58c-d57e-e6ba-efa1-6ef474f11f8d</transaction_id>
                     <Selection>
                         <value>in2_rem2</value>
                     </Selection>
@@ -1274,7 +1258,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>fdbd85ef-168e-904a-5a1e-9db07a409656</transaction_id>
+                    <transaction_id>06944c1b-28f5-f874-f9da-7db6e50038e1</transaction_id>
                     <Selection>
                         <value>in2_quo3</value>
                     </Selection>
@@ -1282,13 +1266,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '3' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1309,7 +1293,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">3</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1334,7 +1318,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>18b4de72-6623-7e9f-7909-95ea38047228</transaction_id>
+                    <transaction_id>feeef1ee-2f8f-8c78-394d-aa26e134a140</transaction_id>
                     <Selection>
                         <value>in2_rem3</value>
                     </Selection>
@@ -1342,13 +1326,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1369,7 +1353,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1394,7 +1378,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>f6cc0051-fbe5-d931-b93d-19a75bddcc10</transaction_id>
+                    <transaction_id>7df9392f-3e9b-b8fc-c616-31bb447dcc74</transaction_id>
                     <Selection>
                         <value>in2_quo4</value>
                     </Selection>
@@ -1402,13 +1386,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1429,7 +1413,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1454,7 +1438,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>96c077d9-87a1-ed71-6789-714953e79daf</transaction_id>
+                    <transaction_id>efbe1480-1a6f-cee6-8b5f-fcb89f2e44f4</transaction_id>
                     <Selection>
                         <value>in2_rem4</value>
                     </Selection>
@@ -1462,13 +1446,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1489,7 +1473,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1514,7 +1498,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>4e6331e6-2458-b1da-956f-6f3f29620056</transaction_id>
+                    <transaction_id>c078bb71-d673-c27d-66d4-22073c5c6e06</transaction_id>
                     <Selection>
                         <value>in2_quo5</value>
                     </Selection>
@@ -1574,7 +1558,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>251a6642-2162-3331-6142-f0fe08855655</transaction_id>
+                    <transaction_id>9b673e60-ab7f-cacf-3c90-e5dcc64af7ef</transaction_id>
                     <Selection>
                         <value>in2_rem5</value>
                     </Selection>
@@ -1582,13 +1566,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1609,7 +1593,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1634,7 +1618,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>da9b32bd-83fe-6440-727a-9c9fe98bc8f9</transaction_id>
+                    <transaction_id>20f4d831-845b-2a49-1e92-3fde621ddbf4</transaction_id>
                     <Selection>
                         <value>bin1</value>
                     </Selection>
@@ -1642,13 +1626,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1669,7 +1653,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1694,7 +1678,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>0a0e4955-2c84-a3a2-aa81-d8fc83069476</transaction_id>
+                    <transaction_id>8f9bc92a-5449-c146-3b07-dce91e87a48c</transaction_id>
                     <Selection>
                         <value>bin2</value>
                     </Selection>
@@ -1702,13 +1686,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1729,7 +1713,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1754,7 +1738,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>dd8bb4a3-b6c6-bfbd-334d-bbfff7089ac9</transaction_id>
+                    <transaction_id>c3abe253-f029-90e9-729b-613ec7b1e737</transaction_id>
                     <Selection>
                         <value>bin3</value>
                     </Selection>
@@ -1762,13 +1746,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1789,7 +1773,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1814,7 +1798,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>58720517-74a0-e22c-3f25-39fe7a7f5932</transaction_id>
+                    <transaction_id>e727fe9f-b78f-3d42-651d-426ac10243eb</transaction_id>
                     <Selection>
                         <value>bin4</value>
                     </Selection>
@@ -1822,13 +1806,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>1</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1849,7 +1833,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">1</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1874,7 +1858,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>d5164bd1-e232-a500-1f14-a7e82d35297b</transaction_id>
+                    <transaction_id>a96a4ca9-a83e-f03f-b456-03381fff72ee</transaction_id>
                     <Selection>
                         <value>bin5</value>
                     </Selection>
@@ -1934,7 +1918,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>a0786b0a-4643-ae3c-ab0b-e375518e20c4</transaction_id>
+                    <transaction_id>6bd36657-482a-9755-4689-5d6e7817494b</transaction_id>
                     <Selection>
                         <value>out_res1</value>
                     </Selection>
@@ -1942,13 +1926,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '1' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1969,7 +1953,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">1</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -1994,7 +1978,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>416a9373-6990-1eab-2018-b04f1b53bf69</transaction_id>
+                    <transaction_id>6dd5d680-5ff4-9d0c-3ef7-c4f83f7ab61b</transaction_id>
                     <Selection>
                         <value>out_res2</value>
                     </Selection>
@@ -2002,13 +1986,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>2</value>
+                        <value>0</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '2' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2029,7 +2013,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">2</matcherParameter>
+                        <matcherParameter name="single">0</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2054,7 +2038,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>13fc26db-36f5-8ce0-a4b4-11ea0f019956</transaction_id>
+                    <transaction_id>e1cef607-38c2-db28-8d5a-7e535424069c</transaction_id>
                     <Selection>
                         <value>out_res3</value>
                     </Selection>
@@ -2062,13 +2046,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>4</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '4' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2089,7 +2073,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">4</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2114,7 +2098,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>1f17e33b-4198-c246-ef61-0f3e37f316f7</transaction_id>
+                    <transaction_id>64c3f239-84ef-2f44-f8e1-1481ef280693</transaction_id>
                     <Selection>
                         <value>out_res4</value>
                     </Selection>
@@ -2122,13 +2106,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>0</value>
+                        <value>8</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '0' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '8' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2149,7 +2133,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">0</matcherParameter>
+                        <matcherParameter name="single">8</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2174,7 +2158,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>b617774d-56ea-005b-05ba-29ae8e378a09</transaction_id>
+                    <transaction_id>c83cbd9c-b105-2fe0-3829-09dc6862baa9</transaction_id>
                     <Selection>
                         <value>out_res5</value>
                     </Selection>
@@ -2234,7 +2218,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>a6f67af9-8c01-9b51-76fe-4e239e78f2f9</transaction_id>
+                    <transaction_id>9a0ef146-c4c7-39b0-09bc-11edb2a1f6ca</transaction_id>
                     <Selection>
                         <value>out</value>
                     </Selection>
@@ -2242,13 +2226,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>3</value>
+                        <value>12</value>
                     </Input>
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
             <successMessage></successMessage>
-            <hintMessage>Please enter '3' in the highlighted field.</hintMessage>
+            <hintMessage>Please enter '12' in the highlighted field.</hintMessage>
             <callbackFn></callbackFn>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2269,7 +2253,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">3</matcherParameter>
+                        <matcherParameter name="single">12</matcherParameter>
                     </matcher>
                 </Input>
                 <Actor linkTriggered="false">Student</Actor>
@@ -2294,7 +2278,7 @@
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>22521669-7981-801a-b4ec-496f2fa76375</transaction_id>
+                    <transaction_id>762883e2-85be-585d-3e40-b4727cf06137</transaction_id>
                     <Selection>
                         <value>done</value>
                     </Selection>
