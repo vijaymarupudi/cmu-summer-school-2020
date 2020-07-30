@@ -1,36 +1,42 @@
 {
-	"set_params" : {
-		"interactive" : true,
-		"free_author" : true,
-		"tutor" : "CTAT",
-		"use_foci" : true,
-		// "tutor_props" : {"mode" : "debug"}
-	},
-	"training_set1" : [{
-		"agent_name":"myAgent1",
-		"agent_type":"ModularAgent",
-		"output_dir":"out/myAgent1",
+  "set_params": {
+    "interactive": true,
+    "free_author": true,
+    "tutor": "CTAT",
+    "use_foci": true
+    // "tutor_props" : {"mode" : "debug"}
+  },
+  "training_set1": [
+    {
+      "agent_name": "myAgent1",
+      "agent_type": "ModularAgent",
+      "output_dir": "out/myAgent1",
 
-		"args": {
-			"search_depth" : 3,
-			"when_learner": "decisiontree",
-			"where_learner": "versionspace",
-			"planner": "numba",
-			"feature_set" : [],
-			"function_set" : ["RipFloatValue", "RipStrValue",
-				"AddOne","Append25","Multiply","Div10"],
-		},
+      "args": {
+        "search_depth": 3,
+        "when_learner": "decisiontree",
+        "where_learner": "versionspace",
+        "planner": "numba",
+        "feature_set": [],
+        "function_set": [
+          "BOIntDiv2",
+          "BOMod2",
+          "BOPowerOfTwo",
+          "BOAdd5",
+          "BOBinaryOp"
+        ]
+      },
 
-		"stay_active": true,
-		"dont_save": true,
-		"no_ops_parse" : true,
-		
-		"problem_set" : [
-			{"set_params" : 
-				{"HTML": "../../model/HTML/square5.html"}
-			},
-			{
-			"repetitions":-1}
-		]
-	}]
+      "stay_active": true,
+      "dont_save": true,
+      "no_ops_parse": true,
+
+      "problem_set": [
+        { "set_params": { "HTML": "../../../binary-operator-interface.html" } },
+        {
+          "repetitions": -1
+        }
+      ]
+    }
+  ]
 }

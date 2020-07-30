@@ -1,0 +1,39 @@
+{
+	"set_params" : {
+		"interactive" : true,
+		"free_author" : true,
+		"tutor" : "CTAT",
+		"use_foci" : false,
+		// "tutor_props" : {"mode" : "debug"}
+	},
+	"training_set1" : [{
+		"agent_name":"myAgent1",
+		"agent_type":"ExpertaAgent",
+		"output_dir":"out/myAgent1",
+		"args": {
+			"action_penalty": -0.0,
+			"prior_skills": {
+			  "update_field": true,
+			  "div10": true,
+			  "addOne": true,
+			  "append25": true,
+			  "multiply": true,
+			  "done": true
+			},
+			"request_epsilon": 0.3,
+			"train_epsilon": 0.3
+	        },
+		"stay_active": true,
+		"dont_save": true,
+		"no_ops_parse" : true,
+
+		
+		"problem_set" : [
+			{"set_params" : 
+				{"HTML": "../../model/HTML/square5.html"}
+			},
+			{
+			"repetitions":-1}
+		]
+	}]
+}
