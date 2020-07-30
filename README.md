@@ -63,3 +63,14 @@ _ _ _ _ _
 
 18
 ```
+
+## Progress
+
+* `x // 2` done, `BOIntDiv2` 
+* `x % 2` done, `BOMod2`
+* `2 ** x * y`, done, `BOPowerOfTwoTimesNumber`
+* `+ (a1, a2, a3, a4, a5)` done, `BOAdd5`
+* `(number1, number2, op)` done, `BOBinaryOp`
+  * `&`, `ADD` argument
+  * `|`, `OR` argument
+  * `^`, `XOR` argument

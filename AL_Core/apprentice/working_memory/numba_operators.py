@@ -78,12 +78,12 @@ class EvenPowersOfPrimes(BaseOperator):
         return x**y
 
 
-class Add(BaseOperator):
+class BOAdd5(BaseOperator):
     commutes = True
-    signature = 'float(float,float)'
+    signature = 'float(float,float,float,float,float)'
 
-    def forward(x, y):
-        return x + y
+    def forward(a1, a2, a3, a4, a5):
+        return sum([a1, a2, a3, a4, a5])
 
 
 class AddOne(BaseOperator):
@@ -129,28 +129,39 @@ class Equals(BaseOperator):
         return x == y
 
 
-class Add3(BaseOperator):
-    commutes = True
-    signature = 'float(float,float,float)'
-
-    def forward(x, y, z):
-        return x + y + z
-
-
-class Mod10(BaseOperator):
-    commutes = True
+class BOMod2(BaseOperator):
     signature = 'float(float)'
 
     def forward(x):
-        return x % 10
+        return x % 2
 
 
-class Div10(BaseOperator):
-    commutes = True
+class BOIntDiv2(BaseOperator):
     signature = 'float(float)'
 
     def forward(x):
-        return x // 10
+        return x // 2
+
+class BOBinaryOp(BaseOperator):
+    signature = 'float(float, float, string)'
+    commutes = True
+
+    def forward(x, y, operator):
+        x = int(x)
+        y = int(y)
+        if operator == "AND":
+            return x & y
+        if operator == "OR":
+            return x | y
+        if operator == "XOR":
+            return x ^ y
+
+
+class BOPowerOfTwoTimesNumber(BaseOperator):
+    signature = 'float(float, float)'
+
+    def forward(x, y):
+        return (2 ** x) * y
 
 
 class Concatenate(BaseOperator):
