@@ -36,13 +36,13 @@
       "dont_save": true,
       "no_ops_parse": true,
       "problem_set": [
-        { "set_params": { "HTML": "./bin_ope.html" } },
-        { "question_file": "./brds/bo_or1.brd" },
-        { "question_file": "./brds/bo_or2.brd" },
-        { "question_file": "./brds/bo_and1.brd" },
-        { "question_file": "./brds/bo_and2.brd" },
-        { "question_file": "./brds/bo_xor1.brd" },
-        { "question_file": "./brds/bo_xor2.brd" }
+        { "set_params": { "HTML": "bin_ope.html" } },
+        { "question_file": "brds/bo_or1.brd" },
+        { "question_file": "brds/bo_or2.brd" },
+        { "question_file": "brds/bo_and1.brd" },
+        { "question_file": "brds/bo_and2.brd" },
+        { "question_file": "brds/bo_xor1.brd" },
+        { "question_file": "brds/bo_xor2.brd" }
       ]
     }
   ]
