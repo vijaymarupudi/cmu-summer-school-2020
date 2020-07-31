@@ -15,16 +15,14 @@
       "args": {
         "search_depth": 3,
         "when_learner": "decisiontree",
-        "where_learner": "versionspace",
-        "where_args": {
-          "remove_attrs": ["offsetParent"]
-        },
+        "where_learner": "fastMostSpecific",
         "heuristic_learner": "totalcorrect",
         "planner": "numba",
         "feature_set": [],
         "function_set": [
           "BOIntDiv2",
-          "BOMod2"
+          "BOMod2",
+          "RipFloatValue"
         ]
       },
 
