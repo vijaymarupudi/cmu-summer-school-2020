@@ -1,9 +1,9 @@
 {
   "set_params": {
-    "interactive": false,
-    "free_author": false,
+    "interactive": true,
+    "free_author": true,
     "tutor": "CTAT",
-    "use_foci": false
+    "use_foci": true
     // "tutor_props" : {"mode" : "debug"}
   },
   "training_set1": [
@@ -15,7 +15,7 @@
       "args": {
         "search_depth": 3,
         "when_learner": "decisiontree",
-        "where_learner": "versionspace",
+        "where_learner": "fastMostSpecific",
         "where_args": {
           "remove_attrs": ["offsetParent"]
         },
@@ -24,7 +24,7 @@
         "function_set": [
           "BOIntDiv2",
           "BOMod2",
-          "BOPowerOfTwoTimesNumber",
+          "Multiply",
           "BOAdd5",
           "BOBinaryOp",
           "RipFloatValue",
@@ -37,12 +37,9 @@
       "no_ops_parse": true,
       "problem_set": [
         { "set_params": { "HTML": "bin_ope.html" } },
-        { "question_file": "brds/bo_or1.brd" },
-        { "question_file": "brds/bo_or2.brd" },
-        { "question_file": "brds/bo_and1.brd" },
-        { "question_file": "brds/bo_and2.brd" },
-        { "question_file": "brds/bo_xor1.brd" },
-        { "question_file": "brds/bo_xor2.brd" }
+        {
+          "repetitions": -1
+        }
       ]
     }
   ]

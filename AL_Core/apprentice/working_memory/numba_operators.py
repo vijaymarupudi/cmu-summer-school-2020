@@ -143,30 +143,53 @@ class BOIntDiv2(BaseOperator):
         return x // 2
 
 class BOBinaryOp(BaseOperator):
-    signature = 'float(float, float, string)'
+    signature = 'float(float, float, float)'
     commutes = True
     nopython = False
     muted_exceptions = [ValueError]
 
     def condition(x, y, operator):
-        return operator in ("AND", "OR", "XOR")
+        return operator in (0.0, 1.0, 2.0)
 
     def forward(x, y, operator):
         x = int(x)
         y = int(y)
-        if operator == "AND":
+        if operator == 0.0:
             return x & y
-        if operator == "OR":
+        if operator == 1.0:
             return x | y
-        if operator == "XOR":
+        if operator == 2.0:
             return x ^ y
 
+# class BOAnd(BaseOperator):
+#     signature = 'float(float, float)'
 
-class BOPowerOfTwoTimesNumber(BaseOperator):
-    signature = 'float(float, float)'
+#     def forward(x, y):
+#         x = int(x)
+#         y = int(y)
+#         return x & y
 
-    def forward(x, y):
-        return (2 ** x) * y
+# class BOOr(BaseOperator):
+#     signature = 'float(float, float)'
+
+#     def forward(x, y):
+#         x = int(x)
+#         y = int(y)
+#         return x | y
+
+# class BOXor(BaseOperator):
+#     signature = 'float(float, float)'
+
+#     def forward(x, y):
+#         x = int(x)
+#         y = int(y)
+#         return x ^ y
+
+# class BOPowerOfTwoTimesNumber(BaseOperator):
+#     signature = 'float(float, float)'
+
+#     def forward(x, y):
+#         return (2 ** x) * y
 
 
 class Concatenate(BaseOperator):
