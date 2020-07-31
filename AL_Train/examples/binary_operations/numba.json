@@ -1,9 +1,9 @@
 {
   "set_params": {
-    "interactive": true,
-    "free_author": true,
+    "interactive": false,
+    "free_author": false,
     "tutor": "CTAT",
-    "use_foci": true
+    "use_foci": false
     // "tutor_props" : {"mode" : "debug"}
   },
   "training_set1": [
@@ -16,8 +16,8 @@
         "search_depth": 3,
         "when_learner": "decisiontree",
         "where_learner": "versionspace",
-        "where_args" : {
-        "remove_attrs": ["offsetParent"]
+        "where_args": {
+          "remove_attrs": ["offsetParent"]
         },
         "planner": "numba",
         "feature_set": [],
@@ -35,12 +35,14 @@
       "stay_active": true,
       "dont_save": true,
       "no_ops_parse": true,
-
       "problem_set": [
-        { "set_params": { "HTML": "../../../bin_ope.html" } },
-        {
-          "repetitions": -1
-        }
+        { "set_params": { "HTML": "./bin_ope.html" } },
+        { "question_file": "./brds/bo_or1.brd" },
+        { "question_file": "./brds/bo_or2.brd" },
+        { "question_file": "./brds/bo_and1.brd" },
+        { "question_file": "./brds/bo_and2.brd" },
+        { "question_file": "./brds/bo_xor1.brd" },
+        { "question_file": "./brds/bo_xor2.brd" }
       ]
     }
   ]
