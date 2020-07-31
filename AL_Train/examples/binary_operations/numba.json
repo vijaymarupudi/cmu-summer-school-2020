@@ -1,9 +1,9 @@
 {
   "set_params": {
-    "interactive": true,
-    "free_author": true,
+    "interactive": false,
+    "free_author": false,
     "tutor": "CTAT",
-    "use_foci": true
+    "use_foci": false
     // "tutor_props" : {"mode" : "debug"}
   },
   "training_set1": [
@@ -23,12 +23,7 @@
         "feature_set": [],
         "function_set": [
           "BOIntDiv2",
-          "BOMod2",
-          "Multiply",
-          "BOAdd5",
-          "BOBinaryOp",
-          "RipFloatValue",
-          "RipStrValue"
+          "BOMod2"
         ]
       },
 
@@ -37,9 +32,8 @@
       "no_ops_parse": true,
       "problem_set": [
         { "set_params": { "HTML": "bin_ope.html" } },
-        {
-          "repetitions": -1
-        }
+        { "question_file": "brds/bo_sip_1.brd" },
+        { "question_file": "brds/bo_sip_2.brd" }
       ]
     }
   ]
