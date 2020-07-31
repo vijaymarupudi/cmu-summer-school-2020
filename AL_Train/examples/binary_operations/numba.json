@@ -33,8 +33,8 @@
       "no_ops_parse": true,
       "problem_set": [
         { "set_params": { "HTML": "bin_ope.html" } },
-        { "question_file": "brds/bo_sip_1.brd" },
         { "question_file": "brds/bo_sip_2.brd" },
+        { "question_file": "brds/bo_sip_1.brd" },
         { "question_file": "brds/bo_sip_1.brd" },
         { "question_file": "brds/bo_sip_2.brd" },
         { "question_file": "brds/bo_sip_1.brd" },
